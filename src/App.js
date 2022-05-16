@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="flex justify-center items-center w-screen h-screen">
       <Routes>
-        <Route path="todo-app/" element={console.log("haha")}/>
-        <Route path='todo-app/register' element={<Login/>}/>
+        <Route path="/todo-app" element={console.log("haha")}/>
+        <Route path='/todo-app/register' element={<Login/>}/>
       </Routes>
     </div>
   );
