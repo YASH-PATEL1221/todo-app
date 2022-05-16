@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="flex justify-center items-center w-screen h-screen">
       <Routes>
+        <Route path="/" element={() => {console.log("haha");}}/>
         <Route path='/register' element={<Login/>}/>
       </Routes>
     </div>
